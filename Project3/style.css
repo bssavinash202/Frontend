@@ -1,0 +1,27 @@
+.container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+}
+.item1{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+   color: white;
+}
+.item2{
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+    color: white;
+}
+.item3{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    color: white;
+}

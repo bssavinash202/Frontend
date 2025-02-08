@@ -1,0 +1,25 @@
+.box1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.box2{
+    background-color: rgb(82, 235, 82);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.box3{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.box4{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+

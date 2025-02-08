@@ -1,0 +1,31 @@
+img{
+    width: 300px;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+}
+.item1{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.item2{
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+img:hover{
+    transform:scale(1.1);
+    opacity: 50%;
+}

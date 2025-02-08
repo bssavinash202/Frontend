@@ -1,0 +1,64 @@
+
+.one{
+    background-color: aquamarine;
+    color: brown;
+}
+#one{
+    background-color: antiquewhite;
+    color: blueviolet;
+}
+p{
+    background-color: beige;
+    color: black;
+}
+.two{
+    background-color: chartreuse;
+    color: black;
+}
+#two{
+    background-color: crimson;
+    color:white ;
+}
+.three{
+    background-color:bisque;
+    color:brown;
+}
+.image{
+    background-color:bisque;
+    color:brown;
+    width: 100px;
+}
+.tab{
+ background-color: burlywood;
+ border: 3px;  
+}
+.box1{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+   display: inline-block;
+}
+.box2{
+    background-color:blue;
+    width: 200px;
+    height: 200px; 
+    display: inline-block;
+}
+.box3{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+.box4{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+}
+.x{
+    background-color: aqua;
+}
+.y{
+    color: blue;
+}
