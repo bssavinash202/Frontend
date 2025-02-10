@@ -1,0 +1,138 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu p{
+    transition: transform 0.3s ease;
+}
+.menu p:hover{
+   cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.login{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 6px 17px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+.login:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.text-section {
+    max-width: 500px;
+    margin-left: 80px;
+}
+
+.title {
+    font-size: 40px;
+    
+}
+.highlight {
+   
+    color: white;
+    padding: 0 5px;
+    position: relative;
+}
+.highlight::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: black;
+    transform: skewY(-3deg);
+    z-index: -1;
+}
+
+.description {
+    font-size: 20px;
+    color: gray;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.shop-button,
+.category-button {
+    background-color: black;
+    color: white;
+    
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.5s;
+    border: 1px solid transparent;
+    
+}
+
+.shop-button:hover,
+.category-button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.available {
+    text-align: center;
+}
+
+.logos img {
+    width: 60px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.image-section img {
+    width: 90%;
+    margin-left: 40px;
+    transition: transform 0.3s ease;
+}
+.image-section img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+img amazon{
+    border-radius: 100%;
+}
+img flipkart{
+    border-radius: 100%;
+}
