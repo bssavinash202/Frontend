@@ -1,0 +1,80 @@
+body{
+    background-image: url(./assets/pexels-david-besh-884788.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+h1{
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.login-form{
+    padding: 100px;
+    border: 1px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    backdrop-filter: blur(8px);
+}
+.login{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+.email{
+    display: flex;
+    gap: 50px;
+}
+.password{
+    display: flex;
+    gap: 20px;
+}
+.email input{
+    border:1px solid white;
+    border-radius: 20px;
+    padding: 6px;
+    background-color: transparent;
+    color: white;
+}
+.password input{
+    border:1px solid white;
+    border-radius: 20px;
+    padding: 6px;
+    background-color: transparent;
+    color: white;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.buttons .btn1{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+    height: 30px;
+}
+.buttons .btn2{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+}
