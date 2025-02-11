@@ -9,7 +9,6 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-
 }
 h1{
     color: white;
@@ -45,14 +44,14 @@ h1{
 .email input{
     border:1px solid white;
     border-radius: 20px;
-    padding: 6px;
+    padding: 6px 20px;
     background-color: transparent;
     color: white;
 }
 .password input{
     border:1px solid white;
     border-radius: 20px;
-    padding: 6px;
+    padding: 6px 20px;
     background-color: transparent;
     color: white;
 }
@@ -61,7 +60,7 @@ h1{
     gap: 20px;
     justify-content: center;
 }
-.buttons .btn1{
+.buttons .btn1,.btn2{
     border: 1px solid white;
     background-color: transparent;
     color: white;
@@ -69,12 +68,11 @@ h1{
     width: 100px;
     border-radius: 10px;
     height: 30px;
+    transition: transform 0.5s ease-in-out;
 }
-.buttons .btn2{
-    border: 1px solid white;
-    background-color: transparent;
-    color: white;
-    font-size: 20px;
-    width: 100px;
-    border-radius: 10px;
+.buttons .btn1:hover,.btn2:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    cursor: pointer;
 }

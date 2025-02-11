@@ -1,11 +1,10 @@
-img{
+/* img{
     width: 300px;
     transition: transform 0.5s ease-in-out;
     cursor: pointer;
 }
 body{
     display: flex;
-    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -28,4 +27,67 @@ body{
 img:hover{
     transform:scale(1.1);
     opacity: 50%;
+} */
+img{
+    width: 300px;
+}
+.place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.container .item1{
+    display: flex;
+    gap: 20px;
+    
+}
+.container .item2{
+    display: flex;
+    gap: 20px;
+    
+}
+.container .item1 .a,.b{
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+p{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    color: black;
+    text-shadow: 10px 2px 10px gray;
+    font-size: 50px;
+    font-weight: bold;
+ transition: all 0.5s linear 0s;   
+}
+.a:hover p{
+    transform: translateX(-120%);
+}
+.b:hover p{
+    transform: translateX(-120%);
+}
+.a img:hover{
+    opacity: 30%;
+    transform: scale(1.1);
+}
+.b img:hover{
+    opacity: 30%;
+    
+}
+.a:hover{
+    transform: scale(1.1);
+}
+.b:hover{
+    transform: scale(1.1);
+}
+p:hover img{
+    opacity: 30%;
 }

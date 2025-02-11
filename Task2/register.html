@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="display: flex; flex-direction: column; align-items: center; font-size:large;">
+<body style="display: flex; flex-direction: column; align-items: center; font-size:large; color: white;">
     <h1>Registration Form</h1>
-    <form action="./login.html" style="display: flex;">
+    <form action="./login.html" style="display: flex; backdrop-filter: blur(10px);">
         <fieldset>
             <legend>Registration</legend> 
            <div style="display: flex; gap: 40px;">
@@ -43,7 +44,7 @@
                 </select>
            </div>
            </div>
-           <input type="submit" value="submit"> <input type="reset" value="reset"><br>
+           <input type="submit" value="submit" class="btn2"> <input type="reset" value="reset" class="btn2"><br>
            <p>Already a Member? Please <a href="./login.html">Login</a></p>
         </fieldset>
     </form>
