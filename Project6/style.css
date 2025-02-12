@@ -1,0 +1,83 @@
+/* .container{
+    border: 10px solid red;
+    outline: 10px solid black;
+    width: 300px;
+    padding-top: 20px;
+   float: right;
+} */
+
+/* ::selection{
+    background-color: red;
+    color: aqua;
+}
+h1::after{
+    content: " Avinash";
+}
+ h1::first-letter{
+    font-size: 100px;
+    color: red; 
+ }*/
+ /* p::first-line{
+    color: red;
+ } */
+
+ /* h1:nth-child(1){
+    color: red;
+ } */
+/* tr:nth-child(even){
+    background-color: blanchedalmond;
+} */
+.box{
+    background-color:black;
+    height: 200px;
+    width: 200px;
+    /* border-radius: 100%; */
+    /* outline: 10px solid rgb(96, 4, 4); */
+    /* border-style: dotted;
+    border-top: 0px;
+    border-left: 0px; */
+    animation-name: box;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate-reverse;*/
+}
+/* @keyframes box {
+    from{
+        transform: translate(0px); 
+        transform: rotate(0deg)
+    }
+    to{
+         transform: translate(200px); 
+        transform: rotate(360deg);
+    }
+} */
+/* @keyframes box {
+    0%{
+        transform: translate(0px,0px);
+    }
+    25%{
+        transform: translate(0px,200px);
+    }
+    50%{
+        transform: translate(200px,200px);
+    }
+    75%{
+        transform: translate(200px,0px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+    
+} */
+body{
+    background-image: url(../Project5/assets/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+}

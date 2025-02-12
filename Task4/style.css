@@ -63,7 +63,7 @@ p{
     top: 0;
     left: 100%;
     color: black;
-    text-shadow: 10px 2px 10px gray;
+    text-shadow: 10px 2px 10px rgb(15, 11, 11);
     font-size: 50px;
     font-weight: bold;
  transition: all 0.5s linear 0s;   
@@ -76,7 +76,7 @@ p{
 }
 .a img:hover{
     opacity: 30%;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 .b img:hover{
     opacity: 30%;
@@ -87,7 +87,4 @@ p{
 }
 .b:hover{
     transform: scale(1.1);
-}
-p:hover img{
-    opacity: 30%;
 }
