@@ -14,9 +14,9 @@ span{
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     border-radius: 100%;
-    animation: rotate 2.5s linear 0s infinite;
+    animation: rotate 2s linear 0s infinite;
 }
 span:nth-child(1){
     background-color: rgb(210, 95, 95);
@@ -62,10 +62,10 @@ span:nth-child(10){
 
 @keyframes rotate {
     0%{
-        transform:rotate(-0deg) translate(100px);
+        transform:rotate(-0deg) translate(150px);
     }
     100%{
-        transform: rotate(-360deg) translate(100px);
+        transform: rotate(-360deg) translate(150px);
         opacity: 20%;
     }
     
