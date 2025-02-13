@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(255, 251, 247);
+}
+.container{
+    height: 100vh;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 100px auto 100px;
+    grid-template-columns: 240px auto;
+}
+.container>div{
+    background-color:beige;
+}
+.container>.navbar{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.container>.main{
+    background-color:azure;
+}
+.container>.footer{
+    background-color: bisque;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+a{
+    font-size: 80px;
+    font-weight: 700;
+    color: brown;
+    text-decoration: none;
+}

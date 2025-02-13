@@ -1,6 +1,6 @@
-body{
+/* body{
     background-color: black;
-}
+} */
 /* .container{
     height: 100vh;
     display: grid;
@@ -19,7 +19,7 @@ body{
     grid-column-start: 1;
     grid-column-end: 3;
 } */
-.container{
+/* .container{
     height: 100vh;
     display: grid;
     gap: 20px;
@@ -41,4 +41,14 @@ body{
 }
 .container>.main{
     background-color: azure;
-}   
+}    */
+h1:hover+p{
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+}
+p{
+    display: none;
+    
+}

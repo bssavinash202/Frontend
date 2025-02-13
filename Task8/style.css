@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: azure;
 }
 .container{
     display: flex;
@@ -65,7 +65,7 @@ span:nth-child(10){
         transform:rotate(-0deg) translate(150px);
     }
     100%{
-        transform: rotate(-360deg) translate(150px);
+        transform: rotate(-360deg) translate(0px);
         opacity: 20%;
     }
     
