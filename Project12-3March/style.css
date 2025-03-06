@@ -1,0 +1,25 @@
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.border{
+    border: 5px solid black;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: #fff24f;
+}
+.animate{
+    animation: ani 1s linear 0s infinite alternate;
+}
+@keyframes ani {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(200px);
+    }
+    
+}
