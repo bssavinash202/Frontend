@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 900px;
+    width: 950px;
     height: auto;
     background-color: rgb(210, 237, 228);
     padding: 50px;
@@ -58,12 +58,13 @@ input{
     padding: 8px 20px;
     background: transparent;
     transition: 0.6s ease;
+    font-size: large;
 }
 input:hover{
     transform: scaleX(1.1);
 }
 #addBtn, #editBtn{
-    background-color:#f50202;
+    background-color:#6a00fe;
     padding: 6px 17px;
     border-radius: 20px;
     color: white;
@@ -73,14 +74,14 @@ input:hover{
     transition: all 0.2s ease-in-out;
 }
 #addBtn:hover,#editBtn:hover{
-    color: #f50202;
+    color: black;
     background-color: white;
     transform: scaleX(1.1);
     cursor: pointer;
 }
 table{
     margin-top: 30px;
-    width: 800px;
+    width: 900px;
     text-align: center;
 }
 td>button{
@@ -92,11 +93,13 @@ td>button{
     color: #f50202;
     cursor: pointer;
     transition: 0.2s ease;
+    font-size: large;
 }
 .edit{
     color: #6a00fe;
     cursor: pointer;
     transition: 0.2s ease;
+    font-size: large;
 }
 .edit:hover,.delete:hover{
     transform: translateY(2px);
@@ -106,12 +109,13 @@ th{
     color: #fff;
 }
 tr:nth-child(2n+1){
-    background-color: #8a87a1;
+    background-color: #8a87a176;
 }
 h1{
-    background-image: linear-gradient(to right,#f50202,#6a00fe);
+    background-image: linear-gradient(to right,#ea2727,#a792c4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
     
 }
 
